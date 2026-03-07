@@ -1,3 +1,8 @@
+"""
+Config module defines the values of constants in the game
+such as starting balance, jail position etc. 
+"""
+
 STARTING_BALANCE = 1500
 GO_SALARY = 200
 BOARD_SIZE = 40
