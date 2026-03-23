@@ -339,7 +339,6 @@ class Game:
         """Eliminate `player` from the game if they are bankrupt."""
         if player.is_bankrupt():
             print(f"\n  *** {player.name} is bankrupt and has been eliminated! ***")
-            player.is_eliminated = True
             # Release all properties back to the bank
             for prop in list(player.properties):
                 prop.owner = None
